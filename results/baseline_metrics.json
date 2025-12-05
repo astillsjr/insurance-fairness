@@ -1,0 +1,131 @@
+{
+  "logistic_regression": {
+    "train": {
+      "accuracy": 0.7132582864290181,
+      "precision": 0.30300429184549355,
+      "recall": 0.7707423580786026,
+      "f1": 0.4349969192852742,
+      "roc_auc": 0.8182067382781373
+    },
+    "validation": {
+      "accuracy": 0.717629846378932,
+      "precision": 0.30691056910569103,
+      "recall": 0.7704081632653061,
+      "f1": 0.438953488372093,
+      "roc_auc": 0.8190975792537338
+    },
+    "test": {
+      "accuracy": 0.711889132020423,
+      "precision": 0.298989898989899,
+      "recall": 0.7551020408163265,
+      "f1": 0.4283646888567294,
+      "roc_auc": 0.8044029526704299
+    }
+  },
+  "random_forest": {
+    "train": {
+      "accuracy": 0.9443402126328956,
+      "precision": 0.720125786163522,
+      "recall": 1.0,
+      "f1": 0.8372943327239488,
+      "roc_auc": 0.998150280495968
+    },
+    "validation": {
+      "accuracy": 0.9297732260424286,
+      "precision": 0.6724137931034483,
+      "recall": 0.9948979591836735,
+      "f1": 0.8024691358024691,
+      "roc_auc": 0.9907239582425627
+    },
+    "test": {
+      "accuracy": 0.9161196207148067,
+      "precision": 0.6310679611650486,
+      "recall": 0.9948979591836735,
+      "f1": 0.7722772277227723,
+      "roc_auc": 0.9907034303082936
+    }
+  },
+  "best_model": "Random Forest",
+  "feature_importance": [
+    {
+      "feature": "Total Claim Amount",
+      "importance": 0.0776801772191749
+    },
+    {
+      "feature": "Renew Offer Type_Offer4",
+      "importance": 0.07454827703488408
+    },
+    {
+      "feature": "Renew Offer Type_Offer3",
+      "importance": 0.07375979707688246
+    },
+    {
+      "feature": "Income",
+      "importance": 0.06496801487190645
+    },
+    {
+      "feature": "Customer Lifetime Value",
+      "importance": 0.06494183137445168
+    },
+    {
+      "feature": "Months Since Policy Inception",
+      "importance": 0.05727868004885827
+    },
+    {
+      "feature": "EmploymentStatus_Retired",
+      "importance": 0.05548303886372088
+    },
+    {
+      "feature": "Renew Offer Type_Offer2",
+      "importance": 0.05348828601295316
+    },
+    {
+      "feature": "Monthly Premium Auto",
+      "importance": 0.05303048975221102
+    },
+    {
+      "feature": "Months Since Last Claim",
+      "importance": 0.047943282640877015
+    },
+    {
+      "feature": "Effective_DayOfWeek",
+      "importance": 0.03153720200623857
+    },
+    {
+      "feature": "Location Code_Suburban",
+      "importance": 0.030496227151512536
+    },
+    {
+      "feature": "Number of Policies",
+      "importance": 0.02769426968990788
+    },
+    {
+      "feature": "Effective_Month",
+      "importance": 0.026676597396074087
+    },
+    {
+      "feature": "Marital Status_Single",
+      "importance": 0.023314092037331525
+    },
+    {
+      "feature": "Number of Open Complaints",
+      "importance": 0.01940764421973251
+    },
+    {
+      "feature": "Marital Status_Married",
+      "importance": 0.018913467908478632
+    },
+    {
+      "feature": "EmploymentStatus_Employed",
+      "importance": 0.016694290128735655
+    },
+    {
+      "feature": "EmploymentStatus_Unemployed",
+      "importance": 0.016369168839353524
+    },
+    {
+      "feature": "Income_IsZero",
+      "importance": 0.015350181283362001
+    }
+  ]
+}
