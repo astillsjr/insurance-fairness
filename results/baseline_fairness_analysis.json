@@ -1,0 +1,1068 @@
+{
+  "Logistic Regression": {
+    "Gender": {
+      "demographic_parity_difference": 0.054434222121938436,
+      "demographic_parity_ratio": 0.8599669247702805,
+      "equalized_odds_difference": 0.11447811447811451,
+      "equalized_odds_ratio": 0.8221070503082835,
+      "precision_difference": 0.051371097205386074,
+      "precision_ratio": 0.842507030936119,
+      "tpr_difference": 0.11447811447811451,
+      "fpr_difference": 0.05767860143588077,
+      "by_group": {
+        "F": {
+          "accuracy": 0.7288378766140603,
+          "precision": 0.3261802575107296,
+          "recall": 0.7037037037037037,
+          "f1": 0.44574780058651026,
+          "false_positive_rate": 0.266553480475382,
+          "false_negative_rate": 0.2962962962962963
+        },
+        "M": {
+          "accuracy": 0.6943620178041543,
+          "precision": 0.2748091603053435,
+          "recall": 0.8181818181818182,
+          "f1": 0.4114285714285714,
+          "false_positive_rate": 0.3242320819112628,
+          "false_negative_rate": 0.18181818181818182
+        }
+      },
+      "selection_by_group": {
+        "F": 0.33428981348637016,
+        "M": 0.3887240356083086
+      },
+      "tpr_by_group": {
+        "F": 0.7037037037037037,
+        "M": 0.8181818181818182
+      },
+      "fpr_by_group": {
+        "F": 0.266553480475382,
+        "M": 0.3242320819112628
+      },
+      "precision_by_group": {
+        "F": 0.3261802575107296,
+        "M": 0.2748091603053435
+      },
+      "group_sizes": {
+        "F": 697,
+        "M": 674
+      }
+    },
+    "EmploymentStatus": {
+      "demographic_parity_difference": 0.8608695652173913,
+      "demographic_parity_ratio": 0.1391304347826087,
+      "equalized_odds_difference": 0.9038461538461539,
+      "equalized_odds_ratio": 0.09615384615384616,
+      "precision_difference": 0.5293040293040293,
+      "precision_ratio": 0.2881773399014778,
+      "tpr_difference": 0.4545454545454546,
+      "fpr_difference": 0.9038461538461539,
+      "by_group": {
+        "Disabled": {
+          "accuracy": 0.47761194029850745,
+          "precision": 0.22727272727272727,
+          "recall": 0.9090909090909091,
+          "f1": 0.36363636363636365,
+          "false_positive_rate": 0.6071428571428571,
+          "false_negative_rate": 0.09090909090909091
+        },
+        "Employed": {
+          "accuracy": 0.6724537037037037,
+          "precision": 0.25297619047619047,
+          "recall": 0.7264957264957265,
+          "f1": 0.37527593818984545,
+          "false_positive_rate": 0.3360107095046854,
+          "false_negative_rate": 0.27350427350427353
+        },
+        "Medical Leave": {
+          "accuracy": 0.6071428571428571,
+          "precision": 0.21428571428571427,
+          "recall": 1.0,
+          "f1": 0.35294117647058826,
+          "false_positive_rate": 0.44,
+          "false_negative_rate": 0.0
+        },
+        "Retired": {
+          "accuracy": 0.7435897435897436,
+          "precision": 0.7435897435897436,
+          "recall": 1.0,
+          "f1": 0.8529411764705882,
+          "false_positive_rate": 1.0,
+          "false_negative_rate": 0.0
+        },
+        "Unemployed": {
+          "accuracy": 0.8695652173913043,
+          "precision": 0.375,
+          "recall": 0.5454545454545454,
+          "f1": 0.4444444444444444,
+          "false_positive_rate": 0.09615384615384616,
+          "false_negative_rate": 0.45454545454545453
+        }
+      },
+      "selection_by_group": {
+        "Disabled": 0.6567164179104478,
+        "Employed": 0.3888888888888889,
+        "Medical Leave": 0.5,
+        "Retired": 1.0,
+        "Unemployed": 0.1391304347826087
+      },
+      "tpr_by_group": {
+        "Disabled": 0.9090909090909091,
+        "Employed": 0.7264957264957265,
+        "Medical Leave": 1.0,
+        "Retired": 1.0,
+        "Unemployed": 0.5454545454545454
+      },
+      "fpr_by_group": {
+        "Disabled": 0.6071428571428571,
+        "Employed": 0.3360107095046854,
+        "Medical Leave": 0.44,
+        "Retired": 1.0,
+        "Unemployed": 0.09615384615384616
+      },
+      "precision_by_group": {
+        "Disabled": 0.22727272727272727,
+        "Employed": 0.25297619047619047,
+        "Medical Leave": 0.21428571428571427,
+        "Retired": 0.7435897435897436,
+        "Unemployed": 0.375
+      },
+      "group_sizes": {
+        "Disabled": 67,
+        "Employed": 864,
+        "Medical Leave": 56,
+        "Retired": 39,
+        "Unemployed": 345
+      }
+    },
+    "Education": {
+      "demographic_parity_difference": 0.2462087757211313,
+      "demographic_parity_ratio": 0.5302595726373153,
+      "equalized_odds_difference": 0.2796990595611285,
+      "equalized_odds_ratio": 0.4360906057235312,
+      "precision_difference": 0.26023391812865493,
+      "precision_ratio": 0.4144736842105263,
+      "tpr_difference": 0.15535714285714286,
+      "fpr_difference": 0.2796990595611285,
+      "by_group": {
+        "Bachelor": {
+          "accuracy": 0.771117166212534,
+          "precision": 0.3235294117647059,
+          "recall": 0.6875,
+          "f1": 0.44,
+          "false_positive_rate": 0.21630094043887146,
+          "false_negative_rate": 0.3125
+        },
+        "College": {
+          "accuracy": 0.7121951219512195,
+          "precision": 0.35542168674698793,
+          "recall": 0.8428571428571429,
+          "f1": 0.5,
+          "false_positive_rate": 0.31470588235294117,
+          "false_negative_rate": 0.15714285714285714
+        },
+        "Doctor": {
+          "accuracy": 0.7719298245614035,
+          "precision": 0.4444444444444444,
+          "recall": 0.7272727272727273,
+          "f1": 0.5517241379310345,
+          "false_positive_rate": 0.21739130434782608,
+          "false_negative_rate": 0.2727272727272727
+        },
+        "High School or Below": {
+          "accuracy": 0.7142857142857143,
+          "precision": 0.2556390977443609,
+          "recall": 0.723404255319149,
+          "f1": 0.37777777777777777,
+          "false_positive_rate": 0.28695652173913044,
+          "false_negative_rate": 0.2765957446808511
+        },
+        "Master": {
+          "accuracy": 0.5310344827586206,
+          "precision": 0.18421052631578946,
+          "recall": 0.7,
+          "f1": 0.2916666666666667,
+          "false_positive_rate": 0.496,
+          "false_negative_rate": 0.3
+        }
+      },
+      "selection_by_group": {
+        "Bachelor": 0.2779291553133515,
+        "College": 0.40487804878048783,
+        "Doctor": 0.3157894736842105,
+        "High School or Below": 0.3392857142857143,
+        "Master": 0.5241379310344828
+      },
+      "tpr_by_group": {
+        "Bachelor": 0.6875,
+        "College": 0.8428571428571429,
+        "Doctor": 0.7272727272727273,
+        "High School or Below": 0.723404255319149,
+        "Master": 0.7
+      },
+      "fpr_by_group": {
+        "Bachelor": 0.21630094043887146,
+        "College": 0.31470588235294117,
+        "Doctor": 0.21739130434782608,
+        "High School or Below": 0.28695652173913044,
+        "Master": 0.496
+      },
+      "precision_by_group": {
+        "Bachelor": 0.3235294117647059,
+        "College": 0.35542168674698793,
+        "Doctor": 0.4444444444444444,
+        "High School or Below": 0.2556390977443609,
+        "Master": 0.18421052631578946
+      },
+      "group_sizes": {
+        "Bachelor": 367,
+        "College": 410,
+        "Doctor": 57,
+        "High School or Below": 392,
+        "Master": 145
+      }
+    },
+    "Marital Status": {
+      "demographic_parity_difference": 0.33532338308457715,
+      "demographic_parity_ratio": 0.4429752066115702,
+      "equalized_odds_difference": 0.3087823828982065,
+      "equalized_odds_ratio": 0.3864981602943529,
+      "precision_difference": 0.1273752790010255,
+      "precision_ratio": 0.6575020275750203,
+      "tpr_difference": 0.22999999999999998,
+      "fpr_difference": 0.3087823828982065,
+      "by_group": {
+        "Divorced": {
+          "accuracy": 0.5970149253731343,
+          "precision": 0.371900826446281,
+          "recall": 0.9,
+          "f1": 0.5263157894736842,
+          "false_positive_rate": 0.5033112582781457,
+          "false_negative_rate": 0.1
+        },
+        "Married": {
+          "accuracy": 0.6981132075471698,
+          "precision": 0.24452554744525548,
+          "recall": 0.67,
+          "f1": 0.3582887700534759,
+          "false_positive_rate": 0.29784172661870506,
+          "false_negative_rate": 0.33
+        },
+        "Single": {
+          "accuracy": 0.8026666666666666,
+          "precision": 0.36,
+          "recall": 0.782608695652174,
+          "f1": 0.4931506849315068,
+          "false_positive_rate": 0.1945288753799392,
+          "false_negative_rate": 0.21739130434782608
+        }
+      },
+      "selection_by_group": {
+        "Divorced": 0.6019900497512438,
+        "Married": 0.34465408805031444,
+        "Single": 0.26666666666666666
+      },
+      "tpr_by_group": {
+        "Divorced": 0.9,
+        "Married": 0.67,
+        "Single": 0.782608695652174
+      },
+      "fpr_by_group": {
+        "Divorced": 0.5033112582781457,
+        "Married": 0.29784172661870506,
+        "Single": 0.1945288753799392
+      },
+      "precision_by_group": {
+        "Divorced": 0.371900826446281,
+        "Married": 0.24452554744525548,
+        "Single": 0.36
+      },
+      "group_sizes": {
+        "Divorced": 201,
+        "Married": 795,
+        "Single": 375
+      }
+    },
+    "Location Code": {
+      "demographic_parity_difference": 0.2592871165353958,
+      "demographic_parity_ratio": 0.44023692810457515,
+      "equalized_odds_difference": 0.3589261744966443,
+      "equalized_odds_ratio": 0.4566056739969784,
+      "precision_difference": 0.13908015536723162,
+      "precision_ratio": 0.5727457627118645,
+      "tpr_difference": 0.3589261744966443,
+      "fpr_difference": 0.20696930946291558,
+      "by_group": {
+        "Rural": {
+          "accuracy": 0.794425087108014,
+          "precision": 0.1864406779661017,
+          "recall": 0.5,
+          "f1": 0.2716049382716049,
+          "false_positive_rate": 0.1811320754716981,
+          "false_negative_rate": 0.5
+        },
+        "Suburban": {
+          "accuracy": 0.6586248492159228,
+          "precision": 0.3255208333333333,
+          "recall": 0.8389261744966443,
+          "f1": 0.46904315196998125,
+          "false_positive_rate": 0.38088235294117645,
+          "false_negative_rate": 0.1610738255033557
+        },
+        "Urban": {
+          "accuracy": 0.792156862745098,
+          "precision": 0.23076923076923078,
+          "recall": 0.48,
+          "f1": 0.3116883116883117,
+          "false_positive_rate": 0.17391304347826086,
+          "false_negative_rate": 0.52
+        }
+      },
+      "selection_by_group": {
+        "Rural": 0.20557491289198607,
+        "Suburban": 0.4632086851628468,
+        "Urban": 0.20392156862745098
+      },
+      "tpr_by_group": {
+        "Rural": 0.5,
+        "Suburban": 0.8389261744966443,
+        "Urban": 0.48
+      },
+      "fpr_by_group": {
+        "Rural": 0.1811320754716981,
+        "Suburban": 0.38088235294117645,
+        "Urban": 0.17391304347826086
+      },
+      "precision_by_group": {
+        "Rural": 0.1864406779661017,
+        "Suburban": 0.3255208333333333,
+        "Urban": 0.23076923076923078
+      },
+      "group_sizes": {
+        "Rural": 287,
+        "Suburban": 829,
+        "Urban": 255
+      }
+    },
+    "State": {
+      "demographic_parity_difference": 0.0729492074511165,
+      "demographic_parity_ratio": 0.8254429678848284,
+      "equalized_odds_difference": 0.20777027027027029,
+      "equalized_odds_ratio": 0.7783783783783783,
+      "precision_difference": 0.08750000000000002,
+      "precision_ratio": 0.7407407407407407,
+      "tpr_difference": 0.20777027027027029,
+      "fpr_difference": 0.0701848998459168,
+      "by_group": {
+        "Arizona": {
+          "accuracy": 0.7248062015503876,
+          "precision": 0.3146067415730337,
+          "recall": 0.7368421052631579,
+          "f1": 0.4409448818897638,
+          "false_positive_rate": 0.2772727272727273,
+          "false_negative_rate": 0.2631578947368421
+        },
+        "California": {
+          "accuracy": 0.720620842572062,
+          "precision": 0.3375,
+          "recall": 0.7297297297297297,
+          "f1": 0.46153846153846156,
+          "false_positive_rate": 0.28116710875331563,
+          "false_negative_rate": 0.2702702702702703
+        },
+        "Nevada": {
+          "accuracy": 0.6865671641791045,
+          "precision": 0.26785714285714285,
+          "recall": 0.9375,
+          "f1": 0.4166666666666667,
+          "false_positive_rate": 0.3474576271186441,
+          "false_negative_rate": 0.0625
+        },
+        "Oregon": {
+          "accuracy": 0.7101449275362319,
+          "precision": 0.273972602739726,
+          "recall": 0.7407407407407407,
+          "f1": 0.4,
+          "false_positive_rate": 0.29444444444444445,
+          "false_negative_rate": 0.25925925925925924
+        },
+        "Washington": {
+          "accuracy": 0.6842105263157895,
+          "precision": 0.25,
+          "recall": 0.7857142857142857,
+          "f1": 0.3793103448275862,
+          "false_positive_rate": 0.33,
+          "false_negative_rate": 0.21428571428571427
+        }
+      },
+      "selection_by_group": {
+        "Arizona": 0.3449612403100775,
+        "California": 0.35476718403547675,
+        "Nevada": 0.417910447761194,
+        "Oregon": 0.3526570048309179,
+        "Washington": 0.38596491228070173
+      },
+      "tpr_by_group": {
+        "Arizona": 0.7368421052631579,
+        "California": 0.7297297297297297,
+        "Nevada": 0.9375,
+        "Oregon": 0.7407407407407407,
+        "Washington": 0.7857142857142857
+      },
+      "fpr_by_group": {
+        "Arizona": 0.2772727272727273,
+        "California": 0.28116710875331563,
+        "Nevada": 0.3474576271186441,
+        "Oregon": 0.29444444444444445,
+        "Washington": 0.33
+      },
+      "precision_by_group": {
+        "Arizona": 0.3146067415730337,
+        "California": 0.3375,
+        "Nevada": 0.26785714285714285,
+        "Oregon": 0.273972602739726,
+        "Washington": 0.25
+      },
+      "group_sizes": {
+        "Arizona": 258,
+        "California": 451,
+        "Nevada": 134,
+        "Oregon": 414,
+        "Washington": 114
+      }
+    },
+    "Income": {
+      "demographic_parity_difference": 0.4725200506542845,
+      "demographic_parity_ratio": 0.22746721877156661,
+      "equalized_odds_difference": 0.4165043816942551,
+      "equalized_odds_ratio": 0.1875593542260209,
+      "precision_difference": 0.17732558139534885,
+      "precision_ratio": 0.5271317829457364,
+      "tpr_difference": 0.3920454545454546,
+      "fpr_difference": 0.4165043816942551,
+      "by_group": {
+        "$0-$26,540": {
+          "accuracy": 0.5922330097087378,
+          "precision": 0.35714285714285715,
+          "recall": 0.9375,
+          "f1": 0.5172413793103449,
+          "false_positive_rate": 0.5126582278481012,
+          "false_negative_rate": 0.0625
+        },
+        "$26,540-$40,740": {
+          "accuracy": 0.7121951219512195,
+          "precision": 0.32142857142857145,
+          "recall": 0.9310344827586207,
+          "f1": 0.4778761061946903,
+          "false_positive_rate": 0.32386363636363635,
+          "false_negative_rate": 0.06896551724137931
+        },
+        "$40,740-$59,207": {
+          "accuracy": 0.6829268292682927,
+          "precision": 0.22077922077922077,
+          "recall": 0.7727272727272727,
+          "f1": 0.3434343434343434,
+          "false_positive_rate": 0.32786885245901637,
+          "false_negative_rate": 0.22727272727272727
+        },
+        "$59,207-$76,514": {
+          "accuracy": 0.6878048780487804,
+          "precision": 0.32432432432432434,
+          "recall": 0.631578947368421,
+          "f1": 0.42857142857142855,
+          "false_positive_rate": 0.2994011976047904,
+          "false_negative_rate": 0.3684210526315789
+        },
+        "$76,514+": {
+          "accuracy": 0.6195121951219512,
+          "precision": 0.19767441860465115,
+          "recall": 0.6538461538461539,
+          "f1": 0.30357142857142855,
+          "false_positive_rate": 0.3854748603351955,
+          "false_negative_rate": 0.34615384615384615
+        },
+        "Zero Income": {
+          "accuracy": 0.8695652173913043,
+          "precision": 0.375,
+          "recall": 0.5454545454545454,
+          "f1": 0.4444444444444444,
+          "false_positive_rate": 0.09615384615384616,
+          "false_negative_rate": 0.45454545454545453
+        }
+      },
+      "selection_by_group": {
+        "$0-$26,540": 0.6116504854368932,
+        "$26,540-$40,740": 0.4097560975609756,
+        "$40,740-$59,207": 0.375609756097561,
+        "$59,207-$76,514": 0.36097560975609755,
+        "$76,514+": 0.4195121951219512,
+        "Zero Income": 0.1391304347826087
+      },
+      "tpr_by_group": {
+        "$0-$26,540": 0.9375,
+        "$26,540-$40,740": 0.9310344827586207,
+        "$40,740-$59,207": 0.7727272727272727,
+        "$59,207-$76,514": 0.631578947368421,
+        "$76,514+": 0.6538461538461539,
+        "Zero Income": 0.5454545454545454
+      },
+      "fpr_by_group": {
+        "$0-$26,540": 0.5126582278481012,
+        "$26,540-$40,740": 0.32386363636363635,
+        "$40,740-$59,207": 0.32786885245901637,
+        "$59,207-$76,514": 0.2994011976047904,
+        "$76,514+": 0.3854748603351955,
+        "Zero Income": 0.09615384615384616
+      },
+      "precision_by_group": {
+        "$0-$26,540": 0.35714285714285715,
+        "$26,540-$40,740": 0.32142857142857145,
+        "$40,740-$59,207": 0.22077922077922077,
+        "$59,207-$76,514": 0.32432432432432434,
+        "$76,514+": 0.19767441860465115,
+        "Zero Income": 0.375
+      },
+      "group_sizes": {
+        "$0-$26,540": 206,
+        "$26,540-$40,740": 205,
+        "$40,740-$59,207": 205,
+        "$59,207-$76,514": 205,
+        "$76,514+": 205,
+        "Zero Income": 345
+      }
+    }
+  },
+  "Random Forest": {
+    "Gender": {
+      "demographic_parity_difference": 0.028915785754122153,
+      "demographic_parity_ratio": 0.8793155528705201,
+      "equalized_odds_difference": 0.009717401507732787,
+      "equalized_odds_ratio": 0.9046075085324231,
+      "precision_difference": 0.02100025301509667,
+      "precision_ratio": 0.9672239041726995,
+      "tpr_difference": 0.0092592592592593,
+      "fpr_difference": 0.009717401507732787,
+      "by_group": {
+        "F": {
+          "accuracy": 0.9124820659971306,
+          "precision": 0.6407185628742516,
+          "recall": 0.9907407407407407,
+          "f1": 0.7781818181818182,
+          "false_positive_rate": 0.10186757215619695,
+          "false_negative_rate": 0.009259259259259259
+        },
+        "M": {
+          "accuracy": 0.9198813056379822,
+          "precision": 0.6197183098591549,
+          "recall": 1.0,
+          "f1": 0.7652173913043478,
+          "false_positive_rate": 0.09215017064846416,
+          "false_negative_rate": 0.0
+        }
+      },
+      "selection_by_group": {
+        "F": 0.23959827833572453,
+        "M": 0.21068249258160238
+      },
+      "tpr_by_group": {
+        "F": 0.9907407407407407,
+        "M": 1.0
+      },
+      "fpr_by_group": {
+        "F": 0.10186757215619695,
+        "M": 0.09215017064846416
+      },
+      "precision_by_group": {
+        "F": 0.6407185628742516,
+        "M": 0.6197183098591549
+      },
+      "group_sizes": {
+        "F": 697,
+        "M": 674
+      }
+    },
+    "EmploymentStatus": {
+      "demographic_parity_difference": 0.7988851727982162,
+      "demographic_parity_ratio": 0.1098136645962733,
+      "equalized_odds_difference": 0.5935897435897436,
+      "equalized_odds_ratio": 0.010683760683760684,
+      "precision_difference": 0.5745098039215686,
+      "precision_ratio": 0.38958333333333334,
+      "tpr_difference": 0.030303030303030276,
+      "fpr_difference": 0.5935897435897436,
+      "by_group": {
+        "Disabled": {
+          "accuracy": 0.7164179104477612,
+          "precision": 0.36666666666666664,
+          "recall": 1.0,
+          "f1": 0.5365853658536586,
+          "false_positive_rate": 0.3392857142857143,
+          "false_negative_rate": 0.0
+        },
+        "Employed": {
+          "accuracy": 0.9108796296296297,
+          "precision": 0.6030927835051546,
+          "recall": 1.0,
+          "f1": 0.752411575562701,
+          "false_positive_rate": 0.10307898259705489,
+          "false_negative_rate": 0.0
+        },
+        "Medical Leave": {
+          "accuracy": 0.8214285714285714,
+          "precision": 0.375,
+          "recall": 1.0,
+          "f1": 0.5454545454545454,
+          "false_positive_rate": 0.2,
+          "false_negative_rate": 0.0
+        },
+        "Retired": {
+          "accuracy": 0.8461538461538461,
+          "precision": 0.8285714285714286,
+          "recall": 1.0,
+          "f1": 0.90625,
+          "false_positive_rate": 0.6,
+          "false_negative_rate": 0.0
+        },
+        "Unemployed": {
+          "accuracy": 0.991304347826087,
+          "precision": 0.9411764705882353,
+          "recall": 0.9696969696969697,
+          "f1": 0.9552238805970149,
+          "false_positive_rate": 0.00641025641025641,
+          "false_negative_rate": 0.030303030303030304
+        }
+      },
+      "selection_by_group": {
+        "Disabled": 0.44776119402985076,
+        "Employed": 0.22453703703703703,
+        "Medical Leave": 0.2857142857142857,
+        "Retired": 0.8974358974358975,
+        "Unemployed": 0.09855072463768116
+      },
+      "tpr_by_group": {
+        "Disabled": 1.0,
+        "Employed": 1.0,
+        "Medical Leave": 1.0,
+        "Retired": 1.0,
+        "Unemployed": 0.9696969696969697
+      },
+      "fpr_by_group": {
+        "Disabled": 0.3392857142857143,
+        "Employed": 0.10307898259705489,
+        "Medical Leave": 0.2,
+        "Retired": 0.6,
+        "Unemployed": 0.00641025641025641
+      },
+      "precision_by_group": {
+        "Disabled": 0.36666666666666664,
+        "Employed": 0.6030927835051546,
+        "Medical Leave": 0.375,
+        "Retired": 0.8285714285714286,
+        "Unemployed": 0.9411764705882353
+      },
+      "group_sizes": {
+        "Disabled": 67,
+        "Employed": 864,
+        "Medical Leave": 56,
+        "Retired": 39,
+        "Unemployed": 345
+      }
+    },
+    "Education": {
+      "demographic_parity_difference": 0.08759885691499969,
+      "demographic_parity_ratio": 0.682163439511948,
+      "equalized_odds_difference": 0.1264705882352941,
+      "equalized_odds_ratio": 0.0,
+      "precision_difference": 0.46590909090909094,
+      "precision_ratio": 0.5340909090909091,
+      "tpr_difference": 0.050000000000000044,
+      "fpr_difference": 0.1264705882352941,
+      "by_group": {
+        "Bachelor": {
+          "accuracy": 0.9427792915531336,
+          "precision": 0.6956521739130435,
+          "recall": 1.0,
+          "f1": 0.8205128205128205,
+          "false_positive_rate": 0.06583072100313479,
+          "false_negative_rate": 0.0
+        },
+        "College": {
+          "accuracy": 0.8951219512195122,
+          "precision": 0.6194690265486725,
+          "recall": 1.0,
+          "f1": 0.7650273224043715,
+          "false_positive_rate": 0.1264705882352941,
+          "false_negative_rate": 0.0
+        },
+        "Doctor": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_positive_rate": 0.0,
+          "false_negative_rate": 0.0
+        },
+        "High School or Below": {
+          "accuracy": 0.8954081632653061,
+          "precision": 0.5340909090909091,
+          "recall": 1.0,
+          "f1": 0.6962962962962963,
+          "false_positive_rate": 0.11884057971014493,
+          "false_negative_rate": 0.0
+        },
+        "Master": {
+          "accuracy": 0.9310344827586207,
+          "precision": 0.6785714285714286,
+          "recall": 0.95,
+          "f1": 0.7916666666666666,
+          "false_positive_rate": 0.072,
+          "false_negative_rate": 0.05
+        }
+      },
+      "selection_by_group": {
+        "Bachelor": 0.1880108991825613,
+        "College": 0.275609756097561,
+        "Doctor": 0.19298245614035087,
+        "High School or Below": 0.22448979591836735,
+        "Master": 0.19310344827586207
+      },
+      "tpr_by_group": {
+        "Bachelor": 1.0,
+        "College": 1.0,
+        "Doctor": 1.0,
+        "High School or Below": 1.0,
+        "Master": 0.95
+      },
+      "fpr_by_group": {
+        "Bachelor": 0.06583072100313479,
+        "College": 0.1264705882352941,
+        "Doctor": 0.0,
+        "High School or Below": 0.11884057971014493,
+        "Master": 0.072
+      },
+      "precision_by_group": {
+        "Bachelor": 0.6956521739130435,
+        "College": 0.6194690265486725,
+        "Doctor": 1.0,
+        "High School or Below": 0.5340909090909091,
+        "Master": 0.6785714285714286
+      },
+      "group_sizes": {
+        "Bachelor": 367,
+        "College": 410,
+        "Doctor": 57,
+        "High School or Below": 392,
+        "Master": 145
+      }
+    },
+    "Marital Status": {
+      "demographic_parity_difference": 0.1905671641791045,
+      "demographic_parity_ratio": 0.46050704225352107,
+      "equalized_odds_difference": 0.09044062883713438,
+      "equalized_odds_ratio": 0.34968881169489074,
+      "precision_difference": 0.17273316662035754,
+      "precision_ratio": 0.7658505963590709,
+      "tpr_difference": 0.021739130434782594,
+      "fpr_difference": 0.09044062883713438,
+      "by_group": {
+        "Divorced": {
+          "accuracy": 0.8955223880597015,
+          "precision": 0.704225352112676,
+          "recall": 1.0,
+          "f1": 0.8264462809917356,
+          "false_positive_rate": 0.1390728476821192,
+          "false_negative_rate": 0.0
+        },
+        "Married": {
+          "accuracy": 0.9031446540880503,
+          "precision": 0.5649717514124294,
+          "recall": 1.0,
+          "f1": 0.7220216606498195,
+          "false_positive_rate": 0.11079136690647481,
+          "false_negative_rate": 0.0
+        },
+        "Single": {
+          "accuracy": 0.9546666666666667,
+          "precision": 0.7377049180327869,
+          "recall": 0.9782608695652174,
+          "f1": 0.8411214953271028,
+          "false_positive_rate": 0.0486322188449848,
+          "false_negative_rate": 0.021739130434782608
+        }
+      },
+      "selection_by_group": {
+        "Divorced": 0.35323383084577115,
+        "Married": 0.22264150943396227,
+        "Single": 0.16266666666666665
+      },
+      "tpr_by_group": {
+        "Divorced": 1.0,
+        "Married": 1.0,
+        "Single": 0.9782608695652174
+      },
+      "fpr_by_group": {
+        "Divorced": 0.1390728476821192,
+        "Married": 0.11079136690647481,
+        "Single": 0.0486322188449848
+      },
+      "precision_by_group": {
+        "Divorced": 0.704225352112676,
+        "Married": 0.5649717514124294,
+        "Single": 0.7377049180327869
+      },
+      "group_sizes": {
+        "Divorced": 201,
+        "Married": 795,
+        "Single": 375
+      }
+    },
+    "Location Code": {
+      "demographic_parity_difference": 0.22169777617128228,
+      "demographic_parity_ratio": 0.2820802482578398,
+      "equalized_odds_difference": 0.14750277469478357,
+      "equalized_odds_ratio": 0.07127882599580712,
+      "precision_difference": 0.3147321428571429,
+      "precision_ratio": 0.6475,
+      "tpr_difference": 0.006711409395973145,
+      "fpr_difference": 0.14750277469478357,
+      "by_group": {
+        "Rural": {
+          "accuracy": 0.9895470383275261,
+          "precision": 0.88,
+          "recall": 1.0,
+          "f1": 0.9361702127659575,
+          "false_positive_rate": 0.011320754716981131,
+          "false_negative_rate": 0.0
+        },
+        "Suburban": {
+          "accuracy": 0.8685162846803377,
+          "precision": 0.578125,
+          "recall": 0.9932885906040269,
+          "f1": 0.7308641975308642,
+          "false_positive_rate": 0.1588235294117647,
+          "false_negative_rate": 0.006711409395973154
+        },
+        "Urban": {
+          "accuracy": 0.9882352941176471,
+          "precision": 0.8928571428571429,
+          "recall": 1.0,
+          "f1": 0.9433962264150944,
+          "false_positive_rate": 0.013043478260869565,
+          "false_negative_rate": 0.0
+        }
+      },
+      "selection_by_group": {
+        "Rural": 0.08710801393728224,
+        "Suburban": 0.3088057901085645,
+        "Urban": 0.10980392156862745
+      },
+      "tpr_by_group": {
+        "Rural": 1.0,
+        "Suburban": 0.9932885906040269,
+        "Urban": 1.0
+      },
+      "fpr_by_group": {
+        "Rural": 0.011320754716981131,
+        "Suburban": 0.1588235294117647,
+        "Urban": 0.013043478260869565
+      },
+      "precision_by_group": {
+        "Rural": 0.88,
+        "Suburban": 0.578125,
+        "Urban": 0.8928571428571429
+      },
+      "group_sizes": {
+        "Rural": 287,
+        "Suburban": 829,
+        "Urban": 255
+      }
+    },
+    "State": {
+      "demographic_parity_difference": 0.02607803554290633,
+      "demographic_parity_ratio": 0.8890453393410306,
+      "equalized_odds_difference": 0.02246684350132626,
+      "equalized_odds_ratio": 0.7957559681697612,
+      "precision_difference": 0.12867924528301877,
+      "precision_ratio": 0.813150684931507,
+      "tpr_difference": 0.013513513513513487,
+      "fpr_difference": 0.02246684350132626,
+      "by_group": {
+        "Arizona": {
+          "accuracy": 0.9186046511627907,
+          "precision": 0.6440677966101694,
+          "recall": 1.0,
+          "f1": 0.7835051546391752,
+          "false_positive_rate": 0.09545454545454546,
+          "false_negative_rate": 0.0
+        },
+        "California": {
+          "accuracy": 0.9246119733924612,
+          "precision": 0.6886792452830188,
+          "recall": 0.9864864864864865,
+          "f1": 0.8111111111111111,
+          "false_positive_rate": 0.08753315649867374,
+          "false_negative_rate": 0.013513513513513514
+        },
+        "Nevada": {
+          "accuracy": 0.9104477611940298,
+          "precision": 0.5714285714285714,
+          "recall": 1.0,
+          "f1": 0.7272727272727273,
+          "false_positive_rate": 0.1016949152542373,
+          "false_negative_rate": 0.0
+        },
+        "Oregon": {
+          "accuracy": 0.9106280193236715,
+          "precision": 0.5934065934065934,
+          "recall": 1.0,
+          "f1": 0.7448275862068966,
+          "false_positive_rate": 0.10277777777777777,
+          "false_negative_rate": 0.0
+        },
+        "Washington": {
+          "accuracy": 0.9035087719298246,
+          "precision": 0.56,
+          "recall": 1.0,
+          "f1": 0.717948717948718,
+          "false_positive_rate": 0.11,
+          "false_negative_rate": 0.0
+        }
+      },
+      "selection_by_group": {
+        "Arizona": 0.22868217054263565,
+        "California": 0.23503325942350334,
+        "Nevada": 0.208955223880597,
+        "Oregon": 0.21980676328502416,
+        "Washington": 0.21929824561403508
+      },
+      "tpr_by_group": {
+        "Arizona": 1.0,
+        "California": 0.9864864864864865,
+        "Nevada": 1.0,
+        "Oregon": 1.0,
+        "Washington": 1.0
+      },
+      "fpr_by_group": {
+        "Arizona": 0.09545454545454546,
+        "California": 0.08753315649867374,
+        "Nevada": 0.1016949152542373,
+        "Oregon": 0.10277777777777777,
+        "Washington": 0.11
+      },
+      "precision_by_group": {
+        "Arizona": 0.6440677966101694,
+        "California": 0.6886792452830188,
+        "Nevada": 0.5714285714285714,
+        "Oregon": 0.5934065934065934,
+        "Washington": 0.56
+      },
+      "group_sizes": {
+        "Arizona": 258,
+        "California": 451,
+        "Nevada": 134,
+        "Oregon": 414,
+        "Washington": 114
+      }
+    },
+    "Income": {
+      "demographic_parity_difference": 0.3189250035176586,
+      "demographic_parity_ratio": 0.23606336366700373,
+      "equalized_odds_difference": 0.23409607270366764,
+      "equalized_odds_ratio": 0.026653171390013494,
+      "precision_difference": 0.4411764705882353,
+      "precision_ratio": 0.53125,
+      "tpr_difference": 0.030303030303030276,
+      "fpr_difference": 0.23409607270366764,
+      "by_group": {
+        "$0-$26,540": {
+          "accuracy": 0.8155339805825242,
+          "precision": 0.5581395348837209,
+          "recall": 1.0,
+          "f1": 0.7164179104477612,
+          "false_positive_rate": 0.24050632911392406,
+          "false_negative_rate": 0.0
+        },
+        "$26,540-$40,740": {
+          "accuracy": 0.9024390243902439,
+          "precision": 0.5918367346938775,
+          "recall": 1.0,
+          "f1": 0.7435897435897436,
+          "false_positive_rate": 0.11363636363636363,
+          "false_negative_rate": 0.0
+        },
+        "$40,740-$59,207": {
+          "accuracy": 0.8926829268292683,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "false_positive_rate": 0.12021857923497267,
+          "false_negative_rate": 0.0
+        },
+        "$59,207-$76,514": {
+          "accuracy": 0.9365853658536586,
+          "precision": 0.7450980392156863,
+          "recall": 1.0,
+          "f1": 0.8539325842696629,
+          "false_positive_rate": 0.07784431137724551,
+          "false_negative_rate": 0.0
+        },
+        "$76,514+": {
+          "accuracy": 0.9073170731707317,
+          "precision": 0.5777777777777777,
+          "recall": 1.0,
+          "f1": 0.7323943661971831,
+          "false_positive_rate": 0.10614525139664804,
+          "false_negative_rate": 0.0
+        },
+        "Zero Income": {
+          "accuracy": 0.991304347826087,
+          "precision": 0.9411764705882353,
+          "recall": 0.9696969696969697,
+          "f1": 0.9552238805970149,
+          "false_positive_rate": 0.00641025641025641,
+          "false_negative_rate": 0.030303030303030304
+        }
+      },
+      "selection_by_group": {
+        "$0-$26,540": 0.4174757281553398,
+        "$26,540-$40,740": 0.23902439024390243,
+        "$40,740-$59,207": 0.2146341463414634,
+        "$59,207-$76,514": 0.24878048780487805,
+        "$76,514+": 0.21951219512195122,
+        "Zero Income": 0.09855072463768116
+      },
+      "tpr_by_group": {
+        "$0-$26,540": 1.0,
+        "$26,540-$40,740": 1.0,
+        "$40,740-$59,207": 1.0,
+        "$59,207-$76,514": 1.0,
+        "$76,514+": 1.0,
+        "Zero Income": 0.9696969696969697
+      },
+      "fpr_by_group": {
+        "$0-$26,540": 0.24050632911392406,
+        "$26,540-$40,740": 0.11363636363636363,
+        "$40,740-$59,207": 0.12021857923497267,
+        "$59,207-$76,514": 0.07784431137724551,
+        "$76,514+": 0.10614525139664804,
+        "Zero Income": 0.00641025641025641
+      },
+      "precision_by_group": {
+        "$0-$26,540": 0.5581395348837209,
+        "$26,540-$40,740": 0.5918367346938775,
+        "$40,740-$59,207": 0.5,
+        "$59,207-$76,514": 0.7450980392156863,
+        "$76,514+": 0.5777777777777777,
+        "Zero Income": 0.9411764705882353
+      },
+      "group_sizes": {
+        "$0-$26,540": 206,
+        "$26,540-$40,740": 205,
+        "$40,740-$59,207": 205,
+        "$59,207-$76,514": 205,
+        "$76,514+": 205,
+        "Zero Income": 345
+      }
+    }
+  }
+}
