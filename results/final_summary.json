@@ -1,0 +1,59 @@
+{
+  "analysis_date": "2025-12-04T22:50:29.986480",
+  "protected_attributes": [
+    "Gender",
+    "EmploymentStatus",
+    "Education",
+    "Marital Status",
+    "Location Code",
+    "State",
+    "Income"
+  ],
+  "models_compared": [
+    "LR_Baseline",
+    "RF_Baseline",
+    "LR_ThresholdOptimizer",
+    "RF_ThresholdOptimizer",
+    "ExpGrad_DemographicParity",
+    "ExpGrad_EqualizedOdds",
+    "LR_Reweighted",
+    "RF_Reweighted"
+  ],
+  "overall_statistics": {
+    "baseline": {
+      "avg_dp_difference": 0.2838757225474375,
+      "avg_eo_difference": 0.27244932787960396,
+      "avg_accuracy": 0.8140043763676147
+    },
+    "mitigated": {
+      "avg_dp_difference": 0.122287061799024,
+      "avg_eo_difference": 0.21013262859856086,
+      "avg_accuracy": 0.7449550206661802
+    },
+    "improvements": {
+      "dp_reduction_pct": 56.922324775909985,
+      "eo_reduction_pct": 22.872766751174005,
+      "accuracy_change_pct": -8.482676224611707
+    }
+  },
+  "best_models": {
+    "best_accuracy": {
+      "model": "RF_Baseline",
+      "value": 0.9161196207148068
+    },
+    "best_dp": {
+      "model": "LR_ThresholdOptimizer",
+      "value": 0.03902439024390244
+    },
+    "best_eo": {
+      "model": "LR_ThresholdOptimizer",
+      "value": 0.0512820512820512
+    }
+  },
+  "technique_recommendations": {
+    "best_for_dp": "Threshold Optimizer",
+    "best_for_eo": "Exponentiated Gradient",
+    "best_for_accuracy": "Threshold Optimizer",
+    "best_balanced": "Threshold Optimizer"
+  }
+}
